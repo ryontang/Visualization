@@ -1,0 +1,11 @@
+<library path="lib/libEsrTracksDisplayNodelet">
+
+  <class name="esr_tracks_display/EsrTracksDisplayNodelet"
+	 type="esr_tracks_display::EsrTracksDisplayNodelet"
+	 base_class_type="nodelet::Nodelet">
+    <description>
+      Nodelet to convert esr messages to geometry_msgs/PoseArray.
+    </description>
+  </class>
+
+</library>
